@@ -23,20 +23,28 @@
     h1 {
       font-size: 2.5rem;
       font-weight: 600;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
       letter-spacing: 0.5px;
     }
 
     p {
       font-size: 1.1rem;
-      font-weight: 400;
-      max-width: 300px;
+      font-weight: 300;
       line-height: 1.6;
+      white-space: nowrap; /* ✅ Esto mantiene las frases en una sola línea */
+    }
+
+    .contenedor {
+      padding: 0 2rem;
     }
   </style>
 </head>
 <body>
-  <h1>CodigoBAU</h1>
-  <p>Estamos construyendo nuestra tienda.<br>Este espacio ya está tomando forma.</p>
+  <div class="contenedor">
+    <h1>CódigoBAU</h1>
+    <p>Estamos construyendo nuestra tienda.</p>
+    <p>Este espacio ya está tomando forma.</p>
+  </div>
 </body>
 </html>
+
